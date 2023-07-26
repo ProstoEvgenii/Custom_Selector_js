@@ -1,0 +1,120 @@
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #1D2029;
+}
+.container{
+    padding-bottom: 100px;
+}
+.about_text {
+    margin-bottom:100px;
+}
+
+h1:active, h5:hover {
+    background: #6610f2;
+}
+
+.goals {
+    display: flex;
+    gap: 1rem;
+}
+.goal.active{
+    background-color: #EF2FA2;
+}
+
+.goal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D2029;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    border:5px solid green;
+
+}
+.goal h4{padding-top: 20px;}
+
+.goal img{
+    padding-bottom: 20px;
+    width: 80px;
+}
+.test_container{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.popular_showmans {
+    max-width: 100%;
+    display: flex;
+    flex-wrap :wrap;
+    gap: 20px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+
+}
+img{width: 50px;}
+
+.showman{
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+    max-height: 252px;
+    flex-basis: 290px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: space-between;
+
+}
+.showman p{
+    font-size: 13px;
+    margin-bottom: 5px
+}
+
+.name_photo{
+    display:flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.name_photo h4{
+    font-size: 16px;
+    padding-left: 17px;
+    font-weight: 600;
+}
+
+.name_photo img{
+
+    width: 74px;
+}
+
+.price{
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%;
+}
+.button_feedback button{
+    background-color: #EF2FA2;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 10px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    display: flex;
+    gap: 10px;
+}
